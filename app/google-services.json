@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "847390862043",
+    "project_id": "ladm-u4-p1",
+    "storage_bucket": "ladm-u4-p1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847390862043:android:b0d29db3f076d0cdb17afe",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.ladm_u4_p1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847390862043-pb5g8i8a1eisude7mvam19b03s1k4g52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA38OvCQ2jeTiRvWRMoDlELYMKkkPyzdgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847390862043-pb5g8i8a1eisude7mvam19b03s1k4g52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

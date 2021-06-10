@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="phone" />
+
+    <CheckBox
+        android:id="@+id/checkDeseado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deseado" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir a la lista" />
+
+    <Button
+        android:id="@+id/btnLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver lista de contactos" />
+
+    <EditText
+        android:id="@+id/editDeseado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mensaje para contactos deseados"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editNoDeseado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:hint="Mensaje para NO deseados"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Mensajes" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/listamsg"
+            android:layout_width="177dp"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+        <ListView
+            android:id="@+id/listaND"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
